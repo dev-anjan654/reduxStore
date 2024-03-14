@@ -1,0 +1,26 @@
+.SearchPage{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 30px;
+    transform: translateY(-100%);
+    transition: all 0.4s ease;
+}
+.SearchPage.active{
+    transform: translateY(0);
+}
+.SearchPage h4{
+    color: #000;
+    font-size: 25px;
+}
+.SearchPage .fa-xmark{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
+    color: #000;
+    cursor: pointer;
+}
